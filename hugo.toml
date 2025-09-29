@@ -1,0 +1,80 @@
+baseURL = 'https://onlypwned.com'
+languageCode = 'en-us'
+title = 'OnlyPwned'
+pygmentsStyle = "monokai"
+theme = "gokarna"
+
+
+
+[params]
+  avatarAltText = "avatar"
+  avatarSize = "size-l"
+  avatarURL = "/images/vqw.jpg"
+
+  description = "Cybersecurity | Linux | Tech | AD "
+
+ socialIcons = [
+    {name = "twitter", url = "https://x.com/xov3d"},
+    {name = "email", url = "mailto:shuklasameep16@gmail.com"}
+  ]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[menu]
+
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "resume"
+    url = "/resume/"
+    weight = 2
+
+ [[menu.main]]
+    name = "notes"
+    url = "/notes/"
+    weight = 3
+
+
+[[menu.main]]
+name = "creatives"
+url = "/creatives/"
+weight = 4
+
+
+[[menu.main]]
+name = "blogs"
+url = "/blogs/"
+weight = 5
+
+[[menu.main]]
+name = "projects"
+url = "/projects/"
+weight = 6
+
+
+
+
+
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/sameepshukla"
+    weight = 7
+    # icons: https://feathericons.com
+    pre = "<span data-feather='github'></span>"
+    post = ""
+
+  
+tags = ["blog", "Cybersecurity", "Active Directory", "Windows", "Linux", "personal", "PowerShell"]
+
+
+
+
+

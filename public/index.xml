@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OnlyPwned</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on OnlyPwned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dork Engine (Ongoing)</title>
+      <link>http://localhost:1313/projects/dork_engine/</link>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/dork_engine/</guid>
+      <description>Project Overview I developed a user-friendly GUI to enhance the efficiency of Google Dorking for security researchers.&#xA;Tech Stack: Vue.js, Go Programming Language.</description>
+    </item>
+    <item>
+      <title>Hello!</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 21 Jan 2025 17:26:01 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I&amp;rsquo;m a security and tech enthusiast with a strong focus on offensive security. I am currently deepening my skills in Red Teaming and have a keen interest in Active Directory. My passion lies in creating and writing my own tools, and I am currently developing several projects using Golang.&#xA;Outside of coding, I enjoy creating detailed, diagram-based notes and designing cybersecurity-themed stickers. I actively participate in CTFs to sharpen my skills and am deeply interested in low-level programming.</description>
+    </item>
+  </channel>
+</rss>
