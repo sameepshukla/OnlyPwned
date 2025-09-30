@@ -13,6 +13,20 @@ theme = "gokarna"
 
   description = "Cybersecurity | Linux | Tech | AD "
 
+customHeadHTML = """
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    """
+
+
+footer = "Sameep Shukla"
+
+
  socialIcons = [
     {name = "twitter", url = "https://x.com/xov3d"},
     {name = "email", url = "mailto:shuklasameep16@gmail.com"}
@@ -71,8 +85,10 @@ weight = 6
     pre = "<span data-feather='github'></span>"
     post = ""
 
+
   
 tags = ["blog", "Cybersecurity", "Active Directory", "Windows", "Linux", "personal", "PowerShell"]
+
 
 
 

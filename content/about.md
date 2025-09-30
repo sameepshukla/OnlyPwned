@@ -12,5 +12,5 @@ If you have any query or feedback, feel free to [connect](mailto:shuklasameep16@
 
 
 
-{{< figure src="/images/Sam.png" alt="Profile picture" >}}
+{{< figure src="/images/Sam.png" alt="DP" >}}
 ___
