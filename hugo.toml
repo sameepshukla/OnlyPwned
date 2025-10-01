@@ -60,7 +60,7 @@ theme = "gokarna"
         }
       }
 
-      /* Accessibility: Disable animation if user prefers reduced motion */
+     
       @media (prefers-reduced-motion: reduce) {
         #preloader img { animation: none; }
       }
