@@ -11,19 +11,18 @@ theme = "gokarna"
 
   description = "Cybersecurity | Linux | Tech | AD "
 
-  customHeadHTML = """
+    customHeadHTML = """
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#0b0b0b">
-
     <link rel="preload" as="image" href="/images/OnlyPWNEDMaain.webp">
 
     <style>
-      html.preloader-active body { visibility: hidden; }
+      html.preloader-active .wrapper {
+        visibility: hidden;
+      }
 
       #preloader {
         position: fixed;
@@ -35,68 +34,54 @@ theme = "gokarna"
         opacity: 1;
         transition: opacity .6s ease;
       }
+      
+      #preloader.preloader-hide {
+        opacity: 0;
+        pointer-events: none;
+      }
 
       #preloader img {
         max-width: 60vw;
         max-height: 30vh;
-        width: auto;
-        height: auto;
-        animation: zoomIn 3s ease-out forwards; 
+        animation: zoomIn 3s ease-out forwards;
         will-change: transform, opacity;
       }
-
-      @media (max-width: 768px) {
-      #preloader img {
-      max-width: 100vw;  
-      max-height: 50vh; 
-      }
-      }
-
+      
       @keyframes zoomIn {
         from { transform: scale(.2); opacity: .6; }
-        to   { transform: scale(1);  opacity: 1; }
+        to   { transform: scale(1); opacity: 1; }
       }
 
-      #preloader.preloader-hide { opacity: 0; pointer-events: none; }
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        #preloader img {
+          max-width: 100vw;
+          max-height: 50vh;
+        }
+      }
 
+      /* Accessibility: Disable animation if user prefers reduced motion */
       @media (prefers-reduced-motion: reduce) {
         #preloader img { animation: none; }
       }
     </style>
 
     <script>
+      // This script runs instantly. If it's the homepage, it adds the class to hide the main content.
       (function () {
-        if (location.pathname !== "/") return;
-
-        document.documentElement.classList.add("preloader-active");
-
-        var markup =
-          '<div id="preloader" aria-hidden="true" role="img">'
-          + '<img src="/images/OnlyPWNEDMaain.webp" alt="OnlyPwned logo"'
-          + ' loading="eager" decoding="sync" fetchpriority="high" />'
-          + '</div>';
-        document.write(markup);
+        if (location.pathname === "/") {
+          document.documentElement.classList.add("preloader-active");
+        }
       })();
     </script>
-
-    <noscript>
-      <style>
-        #preloader { display: none !important; }
-        html.preloader-active body { visibility: visible !important; }
-      </style>
-    </noscript>
   """
 
-
-
-
-    customFooterHTML = """
+  customFooterHTML = """
     <script>
       (function () {
         var pre = document.getElementById("preloader");
         if (!pre) return; 
-
-        var DURATION_MS = 300; 
+        var DURATION_MS = 2000; 
 
         function finish() {
           document.documentElement.classList.remove("preloader-active");
@@ -104,11 +89,10 @@ theme = "gokarna"
           pre.addEventListener("transitionend", function () { pre.remove(); }, { once: true });
         }
 
-        setTimeout(finish, DURATION_MS);
+        window.addEventListener('load', function() {
+            setTimeout(finish, DURATION_MS);
+        });
 
-        setTimeout(function () {
-          if (document.documentElement.classList.contains("preloader-active")) finish();
-        }, DURATION_MS + 200);
       })();
     </script>
   """
