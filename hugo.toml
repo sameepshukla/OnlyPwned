@@ -1,13 +1,12 @@
 baseURL = 'https://onlypwned.com'
 languageCode = 'en-us'
 title = 'OnlyPwned'
-pygmentsStyle = "monokai"
 theme = "gokarna"
 
 [params]
   avatarAltText = "avatar"
   avatarSize = "size-l"
-  avatarURL = "/images/vqw.jpg"
+  avatarURL = "/images/vqw.webp"
 
   description = "Cybersecurity | Linux | Tech | AD "
 
@@ -98,7 +97,7 @@ theme = "gokarna"
   footer = "Sameep Shukla"
 
   socialIcons = [
-    {name = "twitter", url = "https://x.com/xov3d"},
+    {name = "twitter", url = "https://x.com/dotsameep"},
     {name = "email", url = "mailto:shuklasameep16@gmail.com"}
   ]
 
@@ -106,6 +105,8 @@ theme = "gokarna"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    style = "monokai"
 
 [menu]
   [[menu.main]]

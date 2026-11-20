@@ -14,5 +14,5 @@ If you have any query or feedback, feel free to [connect](mailto:shuklasameep16@
 
 Fact about me: **I don't use Instagram, so I have less brainrot and more focus**
 
-{{< figure src="/images/Sam.png" alt="DP" >}}
+{{< figure src="/images/Sam.webp" alt="DP" >}}
 ___

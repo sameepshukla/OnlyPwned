@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OnlyPwned</title><link>https://onlypwned.com/</link><description>Recent content on OnlyPwned</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://onlypwned.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Dork Engine (Ongoing)</title><link>https://onlypwned.com/projects/dork_engine/</link><pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate><guid>https://onlypwned.com/projects/dork_engine/</guid><description>Project Overview I developed a user-friendly GUI to enhance the efficiency of Google Dorking for security researchers.
-Tech Stack: Vue.js, Go Programming Language.</description></item><item><title>Hello!</title><link>https://onlypwned.com/about/</link><pubDate>Tue, 21 Jan 2025 17:26:01 -0500</pubDate><guid>https://onlypwned.com/about/</guid><description>sameep@onlypwned:~$ cat about.txt
-I&amp;rsquo;m a security and tech enthusiast with a strong focus on offensive security. I am currently deepening my skills in Red Teaming and have a keen interest in Active Directory. My passion lies in learning how tools work and writing my own tools, and I am currently developing several projects using Golang.
-Outside of coding, I enjoy creating detailed, diagram based notes and designing cybersecurity themed stickers. I actively participate in CTFs to sharpen my skills and am deeply interested in low level programming.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>OnlyPwned</title>
+		<link>https://onlypwned.com/</link>
+		<description>Recent content on OnlyPwned</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://onlypwned.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Dork Engine (Ongoing)</title>
+				<link>https://onlypwned.com/projects/dork_engine/</link>
+				<pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>https://onlypwned.com/projects/dork_engine/</guid>
+				<description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;I developed a user-friendly GUI to enhance the efficiency of Google Dorking for security researchers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; Vue.js, Go Programming Language.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hello!</title>
+				<link>https://onlypwned.com/about/</link>
+				<pubDate>Tue, 21 Jan 2025 17:26:01 -0500</pubDate>
+				<guid>https://onlypwned.com/about/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;sameep@onlypwned:~$&lt;/strong&gt; cat &lt;strong&gt;about.txt&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a &lt;strong&gt;security&lt;/strong&gt; and &lt;strong&gt;tech enthusiast&lt;/strong&gt; with a strong focus on &lt;strong&gt;offensive security&lt;/strong&gt;. I am currently deepening my skills in &lt;strong&gt;Red Teaming&lt;/strong&gt; and have a keen interest in &lt;strong&gt;Active Directory&lt;/strong&gt;. My passion lies in learning how tools work and writing my own tools, and I am currently developing several projects using &lt;strong&gt;Golang&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Outside of coding, I enjoy creating detailed, diagram based notes and designing cybersecurity themed &lt;strong&gt;&lt;a href=&#34;https://onlypwned.com/creatives/&#34;&gt;stickers&lt;/a&gt;&lt;/strong&gt;. I actively participate in CTFs to sharpen my skills and am deeply interested in low level programming.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
